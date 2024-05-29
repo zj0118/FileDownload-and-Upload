@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{836cac4d-87e3-4d42-853c-f9ba53543315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{46825e9b-60ed-4add-a61d-de41fe2e7c90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fileclientsrc">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base\EncodeUtil.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\md5.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="base\MyFile.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="net\MyIUSocket.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\ProtocolData.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\protocolstream.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="base\ConfigFileReader.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="fileclientsrc\FileClient.cpp">
+      <Filter>fileclientsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="fileclientsrc\main.cpp">
+      <Filter>fileclientsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="fileclientsrc\MyFileTaskThread.cpp">
+      <Filter>fileclientsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="fileclientsrc\Thread.cpp">
+      <Filter>fileclientsrc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base\EncodeUtil.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\md5.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\MyFile.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Platform.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="net\FileMsg.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Msg.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\MyIUSocket.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\ProtocolData.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\protocolstream.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ConfigFileReader.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="fileclientsrc\FileClient.h">
+      <Filter>fileclientsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="fileclientsrc\MyFileTaskThread.h">
+      <Filter>fileclientsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="fileclientsrc\Thread.h">
+      <Filter>fileclientsrc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
